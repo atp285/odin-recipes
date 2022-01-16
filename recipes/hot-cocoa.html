@@ -6,18 +6,25 @@
         
         <title>Creamy Hot Cocoa Recipe</title>
         <link rel="stylesheet" href="hot-cocoa.css">
+
+        <style>
+            h1:after {
+                content: '\0020';
+            }
+        </style>
     </head>
 
     <body>
         <div class="head title">Creamy Hot Cocoa</div>
         <img src="hot-cocoa.jpg" alt="A cup of hot cocoa with whipping cream on top">
-
+        <h1 class="space"></h1>
         <div class="section title">Description</div>
-            <p>It's old fashioned, it's comforting, it makes the kitchen smell wonderful and it's good for the soul.</p>
-            <p>"Yummy! I made this while we had friends visiting. It was the perfect beverage to get the cold edge off. Very rich but that's the way I like it!" - a review from Allrecipes.com</p>
-
+            <div class="section intro">
+                <p>It's old fashioned, it's comforting, it makes the kitchen smell wonderful and it's good for the soul.</p>
+                <p>"Yummy! I made this while we had friends visiting. It was the perfect beverage to get the cold edge off. Very rich but that's the way I like it!" - a review from Allrecipes.com</p>
+            </div> 
         <div class="section title">Ingredients</div>
-            <ul>
+            <ul class="section list">
                 <li>1/3 cup unsweetened cocoa powder </li>
                 <li>3/4 cup white sugar </li>
                 <li>1 pinch salt </li>
@@ -28,7 +35,7 @@
             </ul>
 
         <div class="section title">Steps</div>
-            <ol>
+            <ol class="section list">
                 <li>Combine the cocoa, sugar and pinch of salt in a saucepan.</li>
                 <li>Blend in the boiling water. Bring this mixture to an easy boil while you stir. Simmer and stir for about 2 minutes. Watch that it doesn't scorch.</li>
                 <li>Stir in 3 1/2 cups of milk and heat until very hot, but do not boil!</li>
@@ -36,6 +43,6 @@
                 <li>Add the cream to the mugs of cocoa to cool it to drinking temperature.</li>
             </ol>
 
-        <p><a href="../index.html">Home page</a></p>
+        <p><a href="../index.html" target="_blank">Home page</a></p>
     </body>
 </html>
