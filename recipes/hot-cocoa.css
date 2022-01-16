@@ -5,6 +5,10 @@ img {
     display: block;
 }
 
+.space:after {
+    content: '\0020';
+}
+
 * {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -21,4 +25,8 @@ img {
 
 .intro  {
     font-style: italic;
+}
+
+.section.title {
+    text-decoration-line: underline;
 }
