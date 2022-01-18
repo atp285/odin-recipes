@@ -31,6 +31,7 @@ img {
     text-decoration-line: underline;
 }
 
+/* fix allignment issue with bullet points and numbers of li in Chrome & Safari */
 li{
     list-style-position: inside;
 }

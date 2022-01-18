@@ -17,11 +17,16 @@ img {
 
 .intro p{
     font-style: italic;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .list li{
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* fix allignment issue with bullet points and numbers of li in Chrome & Safari */
+li {
+    list-style-position: inside;
 }
