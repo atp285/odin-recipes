@@ -1,0 +1,27 @@
+
+img {
+    height: 500px;
+    width: auto;
+    margin:auto;
+    display: block;
+}
+
+* {
+   text-align: center;
+   font-family:Arial, Helvetica, sans-serif;
+}
+
+.head.title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.intro p{
+    font-style: italic;
+    margin-left: 650px;
+    margin-right: 650px;
+}
+
+.list li{
+    margin-left: 650px;
+    margin-right: 650px;
+}
