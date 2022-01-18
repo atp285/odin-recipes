@@ -33,6 +33,6 @@ img {
 
 ul 
 ol {
-    display: list-item;
-    margin: auto;
+    display: table;
+    margin:auto;
 }
