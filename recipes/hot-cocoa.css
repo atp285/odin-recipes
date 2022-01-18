@@ -30,3 +30,9 @@ img {
 .section.title {
     text-decoration-line: underline;
 }
+
+ul 
+ol {
+    display: list-item;
+    margin: auto;
+}
