@@ -30,3 +30,7 @@ img {
 .section.title {
     text-decoration-line: underline;
 }
+
+li{
+    list-style-position: inside;
+}
