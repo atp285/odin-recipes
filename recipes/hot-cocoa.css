@@ -31,8 +31,6 @@ img {
     text-decoration-line: underline;
 }
 
-ul 
-ol {
-    display: table;
-    margin:auto;
+li {
+    list-style-position: inside;
 }
